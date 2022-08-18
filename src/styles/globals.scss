@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: theme(colors.blue.600);
+  --color-secondary: theme(colors.gray.100);
+  --color-tertiary: theme(colors.blue.600);
+}
+
+@layer utilities {
+  .dark {
+    --color-primary: theme(colors.blue.500);
+    --color-secondary: theme(colors.blue.400);
+    --color-tertiary: theme(colors.slate.800);
+  }
+}
+
+html,
+body,
+body > div:first-child,
+div#__next {
+  height: 100%;
+}
+
+div {
+  position: relative;
+}
