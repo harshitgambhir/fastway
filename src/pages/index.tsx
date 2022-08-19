@@ -14,7 +14,7 @@ const Home: NextPage = () => {
         <div className='mx-auto w-full min-h-full bg-gray-100 dark:bg-slate-800 rounded-3xl p-4'>
           <Header />
           <div className='text-xl font-medium'>My Team</div>
-          <div className='grid grid-cols-2 gap-4 mt-8 rounded'>
+          <div className='grid grid-cols-1 lg:grid-cols-2 gap-4 mt-8 rounded'>
             <div className='rounded bg-gray-100 dark:bg-slate-700 shadow-lg p-8'>
               <div className='grid grid-cols-2 gap-4'>
                 <div className=' p-4 rounded dark:bg-slate-600 shadow-lg'>
